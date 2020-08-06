@@ -1,0 +1,50 @@
+aside{
+    margin-top: 50px;
+    float: right;
+    padding: 16px;
+    width: 30%;
+    background-color: #d4a16a;
+    border-radius: 10px;
+}
+
+aside h2{
+    text-align: center;
+    margin-left: 10px;
+}
+
+aside p{
+    line-height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+
+input, textarea{
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+input{
+    height: 30px;
+}
+
+.btn{
+    height: 50px;
+    width: 40%;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 16px;
+    background-color: #8c6434;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-family: 'Shadows Into Light', cursive;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background: #E1AD01;
+    transition: .5s;
+    cursor: pointer;
+}
